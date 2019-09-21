@@ -3,16 +3,54 @@ body{
     background-size: 100%;
     color: goldenrod;
     font-family: 'Josefin Sans', sans-serif;
+    display: flex;
 
+    flex-direction: column;
+}
+
+.container,
+.projects{
+    scroll-snap-type:mandatory;
+    background: url("./images/deus-exblackbg.jpg");
+}
+
+h2, .card-action, .footer-copyright{
+    text-align: center;
 }
 .card{
     background: rgba(0,0,0,.6);
+    border-radius: 25%;
+}
+
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    margin-left: 10px;
 }
 
 .card-image{
     max-height: 300px;
+}
 
+.nav-wrapper{
+    background-color: black;
 }
-.container{
-    background: url("./images/deus-exblackbg.jpg");
+
+
+.btn-small{
+    background-color: black;
+    letter-spacing: -0.5px;
 }
+.btn-small:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.waves-effect.waves-brown .waves-ripple {
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+    background-color: rgba(0,0,0,.6);
+}
+
