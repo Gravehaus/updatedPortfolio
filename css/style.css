@@ -30,6 +30,12 @@ nav .brand-logo {
     margin-left: 10px;
 }
 
+.contactContainer{
+    height: 500px;
+    padding-top: 5em;}
+
+
+
 .card-image{
     max-height: 300px;
 }

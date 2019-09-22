@@ -30,60 +30,22 @@
     </nav>
 </div>
 
-<div class="container contactCont">
-    <div class="row">
-        <h1> Contact Me.</h1>
-
-        <div class="row">
-            <div class="col s12">
-                <a href="https://www.linkedin.com/in/jkellehergraves/" class="waves-effect waves-light btn-small"><i class="material-icons left"><!-INSERT ICON IF WANTING-></i>LinkdIn</a>
-
-                <a href="https://github.com/Gravehaus"  class="waves-effect waves-light btn-small"><i class="material-icons left"><!-INSERT ICON IF WANTING-></i>Github</a>
-                <a href="https://www.instagram.com/tirisenblackwell/" class="waves-effect waves-light btn-small"><i class="material-icons left"><!-INSERT ICON IF WANTING-></i>Instagram</a>
-                <a href="https://soundcloud.com/thegoodthebadthetwins" class="waves-effect waves-light btn-small"><i class="material-icons left"><!-INSERT ICON IF WANTING-></i>Soundcloud</a>
-
-            </div>
-        </div>
-
+<div class="container contactContainer">
+<form action="contact.php" method="post">
+    <div class="elem-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="visitor_name" placeholder="" pattern=[A-Z\sa-z]{3,20} required>
     </div>
-
-    <section class="contact-wrap">
-        <form action="" class="contact-form">
-            <div class="col-sm-6">
-                <div class="input-block">
-                    <label for="">First Name</label>
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="input-block">
-                    <label for="">Last Name</label>
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-            <div class="col-sm-12">
-                <div class="input-block">
-                    <label for="">Email</label>
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-            <div class="col-sm-12">
-                <div class="input-block">
-                    <label for="">Message Subject</label>
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-            <div class="col-sm-12">
-                <div class="input-block textarea">
-                    <label for="">Drop your message here</label>
-                    <textarea rows="3" type="text" class="form-control"></textarea>
-                </div>
-            </div>
-            <div class="col-sm-12">
-                <button class="waves-effect waves-light btn-small">Send</button>
-            </div>
-        </form>
-    </section>
+    <div class="elem-group">
+        <label for="email">Your E-mail</label>
+        <input type="email" id="email" name="visitor_email" placeholder="" required>
+    </div>
+    <div class="elem-group">
+        <label for="message">Write your message</label>
+        <textarea id="message" name="visitor_message" placeholder="" required></textarea>
+    </div>
+    <button type="submit">Send Message</button>
+</form>
 </div>
 
 
