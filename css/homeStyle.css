@@ -48,3 +48,14 @@ h1, h3{
     text-align: center;
     background-color: black;
 }
+
+#intro{
+    background-image: url("./images/deus-exblackbg.jpg");
+    color:rgba(224, 221, 216,.9);
+}
+
+.parallax-container{
+    background-color: black;
+    color:rgba(224, 221, 216,.9);
+    text-align: center;
+}
