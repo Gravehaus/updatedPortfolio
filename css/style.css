@@ -20,7 +20,7 @@ h2, .card-action, .footer-copyright{
 }
 .card{
     background: rgba(0,0,0,.6);
-    border-radius: 25%;
+
 }
 .row .col.s12 {
     margin: inherit;
