@@ -1,3 +1,5 @@
+
+
 #landing{
     height: 100vh;
     background: url("./images/deusexbg.jpg");
@@ -14,7 +16,7 @@
     margin-top: 30vh;
 }
 
-h1, h3{
+h1, h3, p{
 
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
@@ -52,10 +54,25 @@ h1, h3{
 #intro{
     background-image: url("./images/deus-exblackbg.jpg");
     color:rgba(224, 221, 216,.9);
+    height: fit-content;
+    position: relative;
+    overflow: scroll;
+    height: 500px;
 }
 
 .parallax-container{
     background-color: black;
     color:rgba(224, 221, 216,.9);
     text-align: center;
+}
+
+img.responsive-img, video.responsive-video {
+    max-width: 100%;
+    height: auto;
+    margin-top: 8em;
+}
+
+
+.row .col.offset-l1 {
+    margin-top: 8em;
 }
