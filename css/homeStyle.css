@@ -25,6 +25,10 @@ h1, h3, p{
 
 }
 
+#name,#email,#message{
+    color:rgba(224, 221, 216,.9);
+}
+
 .nav-wrapper{
     background-color: black;
 }
