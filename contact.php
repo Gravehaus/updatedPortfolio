@@ -4,7 +4,6 @@ if($_POST) {
     $visitor_name = "";
     $visitor_email = "";
     $email_title = "";
-    $concerned_department = "";
     $visitor_message = "";
 
     if(isset($_POST['visitor_name'])) {
@@ -28,15 +27,6 @@ if($_POST) {
         $visitor_message = htmlspecialchars($_POST['visitor_message']);
     }
 
-    if($concerned_department == "billing") {
-        $recipient = "gravehaus@gmail.com";
-    }
-    else if($concerned_department == "marketing") {
-        $recipient = "gravehaus@gmail.com;
-    }
-    else if($concerned_department == "technical support") {
-        $recipient = "gravehaus@gmail.com";
-    }
     else {
         $recipient = "gravehaus@gmail.com";
     }
@@ -47,8 +37,6 @@ if($_POST) {
 
     if(mail($recipient, $email_title, $visitor_message, $headers)) {
         echo "<p>Thank you for contacting me, $visitor_name. I'll reply shortly!.</p>";
-    } else {
-        echo '<p>We are sorry but the email did not go through.</p>';
     }
 
 } else {

@@ -22,7 +22,7 @@
     <nav><!-NAV BAR->
         <div class="nav-wrapper">
            <!-- <a href="#" class="brand-logo">Julia Graves</a> -->
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <ul id="nav-mobile" class="right hide-on-med-and-down"> <!--THIS WILL CAUSE THE NAV BAR TO DISAPPEAR ONCE SMALLER -->
                 <li><a href="portfolio.html" class="btn-small waves-effect scale-transition"><i class="material-icons right">details</i>Projects</a></li>
                 <li><a href="aboutMe.html" class="btn-small waves-effect scale-transition"><i class="material-icons right">details</i>About Me.</a></li>
                 <li><a href="contactMe.html" class="btn-small waves-effect scale-transition"><i class="material-icons right">details</i>Contact</a></li>
@@ -153,7 +153,7 @@
         </div>
     </div>
 
-    <!--------------Contact---------------->
+
 
     <div class="container contactCont">
         <div class="row">
@@ -161,11 +161,11 @@
 
             <div class="row">
                 <div class="col s12">
-                    <a href="https://www.linkedin.com/in/jkellehergraves/" class="waves-effect waves-light btn-small"><i class="material-icons left"><!-INSERT ICON IF WANTING-></i>LinkdIn</a>
+                    <a href="https://www.linkedin.com/in/jkellehergraves/" class="waves-effect waves-light btn-small"><i class="material-icons left"><!--INSERT ICON IF WANTING--><ion-icon name="logo-linkedin"></ion-icon></i>LinkdIn</a>
 
-                    <a href="https://github.com/Gravehaus"  class="waves-effect waves-light btn-small"><i class="material-icons left"><!-INSERT ICON IF WANTING-></i>Github</a>
-                    <a href="https://www.instagram.com/tirisenblackwell/" class="waves-effect waves-light btn-small"><i class="material-icons left"><!-INSERT ICON IF WANTING-></i>Instagram</a>
-                    <a href="https://soundcloud.com/thegoodthebadthetwins" class="waves-effect waves-light btn-small"><i class="material-icons left"><!-INSERT ICON IF WANTING-></i>Soundcloud</a>
+                    <a href="https://github.com/Gravehaus"  class="waves-effect waves-light btn-small"><i class="material-icons left"><!--INSERT ICON IF WANTING--><ion-icon name="logo-github"></ion-icon></i>Github</a>
+                    <a href="https://www.instagram.com/tirisenblackwell/" class="waves-effect waves-light btn-small"><i class="material-icons left"><!--INSERT ICON IF WANTING--><ion-icon name="logo-instagram"></ion-icon></i>Instagram</a>
+                    <a href="https://soundcloud.com/thegoodthebadthetwins" class="waves-effect waves-light btn-small"><i class="material-icons left"><!--INSERT ICON IF WANTING--><ion-icon name="cloud-circle"></ion-icon></i>Soundcloud</a>
 
                 </div>
             </div>
@@ -184,7 +184,7 @@
                 <label for="message">Write your message</label>
                 <textarea id="message" name="visitor_message" placeholder="" required></textarea>
             </div>
-            <button type="submit">Send Message</button>
+            <div class="button" type="submit">Send Message</divbutton>
         </form>
 <!--
             <section class="contact-wrap">
@@ -240,5 +240,6 @@
 
 <!--JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="js/materialize.min.js"></script>
-</divbody>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
 </html>
