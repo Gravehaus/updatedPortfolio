@@ -67,6 +67,10 @@ h1, h3, p{
     height: 500px;
 }
 
+#work{
+    background-image: url("/css/images/dehr.gif");
+}
+
 .responsive-img{
     width: 30%;
     align-content: center;
