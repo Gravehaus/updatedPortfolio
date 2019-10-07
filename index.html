@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
+
 <head>
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -13,134 +13,192 @@
     <!--Import materialize.css-->
     <link rel="stylesheet" href="css/homeStyle.css">
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 </head>
 
 <body>
-<main>
+    <main>
 
-    <nav><!-NAV BAR->
-        <div class="nav-wrapper">
-           <!-- <a href="#" class="brand-logo">Julia Graves</a> -->
-            <ul id="nav-mobile" class="right hide-on-med-and-down"> <!--THIS WILL CAUSE THE NAV BAR TO DISAPPEAR ONCE SMALLER -->
-                <li><a href="portfolio.html" class="btn-small waves-effect scale-transition"><i class="material-icons right">details</i>Projects</a></li>
-                <li><a href="aboutMe.html" class="btn-small waves-effect scale-transition"><i class="material-icons right">details</i>About Me.</a></li>
-                <li><a href="contactMe.html" class="btn-small waves-effect scale-transition"><i class="material-icons right">details</i>Contact</a></li>
-            </ul>
+        <nav>
+            <!-NAV BAR->
+                <div class="nav-wrapper">
+                    <!-- <a href="#" class="brand-logo">Julia Graves</a> -->
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <!--THIS WILL CAUSE THE NAV BAR TO DISAPPEAR ONCE SMALLER -->
+                        <li><a href="portfolio.html" class="btn-small waves-effect scale-transition"><i
+                                    class="material-icons right">details</i>Projects</a></li>
+                        <li><a href="aboutMe.html" class="btn-small waves-effect scale-transition"><i
+                                    class="material-icons right">details</i>About Me.</a></li>
+                        <li><a href="contactMe.html" class="btn-small waves-effect scale-transition"><i
+                                    class="material-icons right">details</i>Contact</a></li>
+                    </ul>
+                </div>
+        </nav>
+
+
+        <!-- Landing Screen -->
+        <div class="section" id="landing">
+            <h5 id="mainText" class="center">Hello there. My name is</h5>
+            <h1>
+                Julia <b>Graves</b>
+            </h1>
+            <h6 id="mainText" class="center">and I am a blossoming Web Developer</h6>
         </div>
-    </nav>
+        <!--------------PORTFOLIO SECTION--------------->
+        <div class="section" style="background-color: #181818;" id="work">
+            <div class="container">
+                <h3 class="header text_b center">Projects</h3>
+                <div class="row ">
 
+                    <!------->
+                    <div class="col s12 m12 l4 myCard">             <!---MYCARD---->
 
-<!-- Landing Screen -->
-<div class="section" id="landing">
-    <h5 id="mainText" class="center">Hello there. My name is</h5>
-    <h1>
-        Julia <b>Graves</b>
-    </h1>
-    <h6 id="mainText" class="center">and I am a blossoming Web Developer</h6>
-</div>
-<!--------------PORTFOLIO SECTION--------------->
-    <div class="section" style="background-color: black;" id="work">
-        <div class="container">
-            <h3 class="header text_b center">Projects</h3>
-            <div class="row ">
-                <div class="col s12 m12 l4">
-                    <div class="card hoverable black">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="./css/images/project1.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator purple-text text-lighten-5"><i class="mdi-navigation-more-vert right"></i></span>
-                            <p><a href="https://github.com/maxdavin/Project-One" class="btn black waves-effect"><span>Github</span>
-                                <i class="material-icons right">developer_board</i></a>
-                                <a href="https://maxdavin.github.io/Project-One/" class="btn black waves-effect"><span>Deployed Page</span>
-                                    <i class="material-icons right">details</i></a></p>
-                        </div>
-                        <div class="card-reveal black">
-                            <span class="card-title purple-text text-lighten-5">Project One: Game Chomp<i class="mdi-navigation-close right"></i></span>
-                            <p>First Team Project! A Video game and gaming news congregate site.</p>
+                        <div class="card hoverable black">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./css/images/project1.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator purple-text text-lighten-5"><i
+                                        class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="https://github.com/maxdavin/Project-One"
+                                        class="btn black waves-effect"><span>Github</span>
+                                        <i class="material-icons right">developer_board</i></a>
+                                    <a href="https://maxdavin.github.io/Project-One/"
+                                        class="btn black waves-effect"><span>Deployed Page</span>
+                                        <i class="material-icons right">details</i></a></p>
+                            </div>
+                            <div class="card-reveal black">
+                                <span class="card-title purple-text text-lighten-5">Project One: Game Chomp<i
+                                        class="mdi-navigation-close right"></i></span>
+                                <p>First Team Project! A Video game and gaming news congregate site.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col s12 m12 l4">
-                    <div class="card hoverable black">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="./css/images/triviagame.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator purple-text text-lighten-5"><i class="mdi-navigation-more-vert right"></i></span>
-                            <p><a href="https://github.com/Gravehaus/TriviaGame" class="btn black waves-effect"><span>Github</span>
-                                <i class="material-icons right">developer_board</i></a>
-                                <a href="https://gravehaus.github.io/TriviaGame/" class="btn black waves-effect"><span>Deployed Page</span>
-                                    <i class="material-icons right">details</i></a></p>
-                        </div>
-                        <div class="card-reveal  black">
-                            <span class="card-title purple-text text-lighten-5">Trivia Game<i class="mdi-navigation-close right"></i></span>
-                            <p>Test your gaming knowledge!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l4">
-                    <div class="card hoverable black">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="./css/images/giftastic.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator purple-text text-lighten-5"><i class="mdi-navigation-more-vert right"></i></span>
-                            <p><a href="https://github.com/Gravehaus/gifwork" class="btn black waves-effect"><span>Github</span>
-                                <i class="material-icons right">developer_board</i></a>
-                                <a href="https://gravehaus.github.io/gifwork/" class="btn black waves-effect"><span>Deployed Page</span>
-                                    <i class="material-icons right">details</i></a></p>
-                        </div>
-                        <div class="card-reveal  black">
-                            <span class="card-title purple-text text-lighten-5">Horror RPG<i class="mdi-navigation-close right"></i></span>
-                            <p>Can you survive?</p>
-                        </div>
-                    </div>
-                </div>
+                    <!--------------------------------->
 
-                <div class="col s6 offset-s3 valign">
-                    <div class="card hoverable black">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="./css/images/bamizon.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator purple-text text-lighten-5"><i class="mdi-navigation-more-vert right"></i></span>
-                            <p><a href="https://github.com/Gravehaus/bamizon.git" class="btn black waves-effect"><span>Github</span>
-                                <i class="material-icons right">developer_board</i></a>
-                                <a href="https://gravehaus.github.io/bamizon/" class="btn black waves-effect"><span>Deployed Page</span>
-                                    <i class="material-icons right">details</i></a></p>
-                        </div>
-                        <div class="card-reveal  black">
-                            <span class="card-title purple-text text-lighten-5">Bamazon<i class="mdi-navigation-close right"></i></span>
-                            <p>A shop for all your gaming needs!</p>
+                    <div class="col s12 m12 l4 myCard">
+                        <div class="card hoverable black">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./css/images/triviagame.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator purple-text text-lighten-5"><i
+                                        class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="https://github.com/Gravehaus/TriviaGame"
+                                        class="btn black waves-effect"><span>Github</span>
+                                        <i class="material-icons right">developer_board</i></a>
+                                    <a href="https://gravehaus.github.io/TriviaGame/"
+                                        class="btn black waves-effect"><span>Deployed Page</span>
+                                        <i class="material-icons right">details</i></a></p>
+                            </div>
+                            <div class="card-reveal  black">
+                                <span class="card-title purple-text text-lighten-5">Trivia Game<i
+                                        class="mdi-navigation-close right"></i></span>
+                                <p>Test your gaming knowledge!</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <!--------------------------------->
 
+                    <div class="col s12 m12 l4 myCard">
+                        <div class="card hoverable black">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./css/images/surveypreview4portfolio.gif">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator purple-text text-lighten-5"><i
+                                        class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="https://github.com/Gravehaus/friendfinder"
+                                        class="btn black waves-effect"><span>Github</span>
+                                        <i class="material-icons right">developer_board</i></a>
+                                    <a href="https://polar-refuge-32047.herokuapp.com/"
+                                        class="btn black waves-effect"><span>Deployed Page</span>
+                                        <i class="material-icons right">details</i></a></p>
+                            </div>
+                            <div class="card-reveal  black">
+                                <span class="card-title purple-text text-lighten-5">Pokemon Friend Finder!<i
+                                        class="mdi-navigation-close right"></i></span>
+                                <p>Find Your Pokemon Partner through the new Galar Region!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--------------------------------->
+
+                    <div class="col s12 m12 l4 myCard">
+                        <div class="card hoverable black">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./css/images/giftastic.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator purple-text text-lighten-5"><i
+                                        class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="https://github.com/Gravehaus/gifwork"
+                                        class="btn black waves-effect"><span>Github</span>
+                                        <i class="material-icons right">developer_board</i></a>
+                                    <a href="https://gravehaus.github.io/gifwork/"
+                                        class="btn black waves-effect"><span>Deployed Page</span>
+                                        <i class="material-icons right">details</i></a></p>
+                            </div>
+                            <div class="card-reveal  black">
+                                <span class="card-title purple-text text-lighten-5">Horror RPG<i
+                                        class="mdi-navigation-close right"></i></span>
+                                <p>Can you survive?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--------------------------------->
+
+                    <div class="col s12 m12 l4 myCard">
+                        <div class="card hoverable black">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./css/images/bamizon.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator purple-text text-lighten-5"><i
+                                        class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="https://github.com/Gravehaus/bamizon.git"
+                                        class="btn black waves-effect"><span>Github</span>
+                                        <i class="material-icons right">developer_board</i></a>
+                                    <a href="https://gravehaus.github.io/bamizon/"
+                                        class="btn black waves-effect"><span>Deployed Page</span>
+                                        <i class="material-icons right">details</i></a></p>
+                            </div>
+                            <div class="card-reveal  black">
+                                <span class="card-title purple-text text-lighten-5">Bamazon<i
+                                        class="mdi-navigation-close right"></i></span>
+                                <p>A shop for all your gaming needs!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
-    <!---------------ABOUT ME SECTION--------------->
+        <!---------------ABOUT ME SECTION--------------->
 
-    <div class="section" ;" id="work">
-        <div class="container">
-            <h3 class="header text_b center">About Me</h3>
-            <div class="row ">
-                <div class="col s12 m12 l12">
-                    <img class="responsive-img" style="width:40%" src="./css/images/alt-pic.JPG">
-                    <p>Server, Podcaster, Artist, Gamer and Blossoming, Software Engineer. Not necessarily in that order.<br>
-                    Originally from Los Angeles, I transplanted to Seattle in my teenage year with a few pit stops in Guam, Chicago and
-                    Alaska. Unlike the majority of PWN'ers, I prefer to spend my time indoors. From collecting video game
-                    paraphernalia to drawing concept art. I run a podcast with my twin sister detailing all things nerdy.
-                   </p>
+        <div class="section" id="work">
+            <div class="container">
+                <h3 class="header text_b center">About Me</h3>
+                <div class="row ">
+                    <div class="col s12 m12 l12">
+                        <img class="responsive-img" style="width:40%" src="./css/images/alt-pic.JPG">
+                        <p>Server, Podcaster, Artist, Gamer and Blossoming, Software Engineer. Not necessarily in that
+                            order.<br>
+                            Originally from Los Angeles, I transplanted to Seattle in my teenage year with a few pit
+                            stops in Guam, Chicago and
+                            Alaska. Unlike the majority of PWN'ers, I prefer to spend my time indoors. From collecting
+                            video game
+                            paraphernalia to drawing concept art. I run a podcast with my twin sister detailing all
+                            things nerdy.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!---<div class="section">
+        <!---<div class="section">
     <div id="intro">
         <div class="container">
             <div class="row">
@@ -168,17 +226,17 @@
         </div>
     </div>
     </div> -->
-    <!--Parallax-->
-    <div id="p1" class="parallax-container">
-        <div  class="parallax">
-            <img src="./css/images/black-and-gold-abstract-wallpaper-19-free-hd-wallpaper.jpg">
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col s12">
-                    <h6>From the song:</h6>
-                    <h1><b>"Le Banquet"</b></h1>
-                    <br >I just wanna say this right now
+        <!--Parallax-->
+        <div id="p1" class="parallax-container">
+            <div class="parallax">
+                <img src="./css/images/black-and-gold-abstract-wallpaper-19-free-hd-wallpaper.jpg">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h6>From the song:</h6>
+                        <h1><b>"Le Banquet"</b></h1>
+                        <br>I just wanna say this right now
                         That regardless of what they say about it
                         There's nothing new, only different!
                         Never forget this, the future is to those who take it
@@ -186,46 +244,63 @@
                         That isn't enough, it is madness! <br>
                         Some men see things as they are and say why?
                         I dream things that never were and say why not.</br>
-                    </h4>
+                        </h4>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
-    <div class="container contactCont">
-        <div class="row">
-            <h1> Contact Me.</h1>
-
+        <div class="container contactCont">
             <div class="row">
-                <div class="col s12">
-                    <a href="https://www.linkedin.com/in/jkellehergraves/" class="waves-effect waves-light btn-small"><i class="material-icons left"><!--INSERT ICON IF WANTING--><ion-icon name="logo-linkedin"></ion-icon></i>LinkdIn</a>
+                <h1> Contact Me.</h1>
 
-                    <a href="https://github.com/Gravehaus"  class="waves-effect waves-light btn-small"><i class="material-icons left"><!--INSERT ICON IF WANTING--><ion-icon name="logo-github"></ion-icon></i>Github</a>
-                    <a href="https://www.instagram.com/tirisenblackwell/" class="waves-effect waves-light btn-small"><i class="material-icons left"><!--INSERT ICON IF WANTING--><ion-icon name="logo-instagram"></ion-icon></i>Instagram</a>
-                    <a href="https://soundcloud.com/thegoodthebadthetwins" class="waves-effect waves-light btn-small"><i class="material-icons left"><!--INSERT ICON IF WANTING--><ion-icon name="cloud-circle"></ion-icon></i>Soundcloud</a>
+                <div class="row">
+                    <div class="col s12">
+                        <a href="https://www.linkedin.com/in/jkellehergraves/"
+                            class="waves-effect waves-light btn-small"><i class="material-icons left">
+                                <!--INSERT ICON IF WANTING-->
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </i>LinkdIn</a>
 
+                        <a href="https://github.com/Gravehaus" class="waves-effect waves-light btn-small"><i
+                                class="material-icons left">
+                                <!--INSERT ICON IF WANTING-->
+                                <ion-icon name="logo-github"></ion-icon>
+                            </i>Github</a>
+                        <a href="https://www.instagram.com/tirisenblackwell/"
+                            class="waves-effect waves-light btn-small"><i class="material-icons left">
+                                <!--INSERT ICON IF WANTING-->
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </i>Instagram</a>
+                        <a href="https://soundcloud.com/thegoodthebadthetwins"
+                            class="waves-effect waves-light btn-small"><i class="material-icons left">
+                                <!--INSERT ICON IF WANTING-->
+                                <ion-icon name="cloud-circle"></ion-icon>
+                            </i>Soundcloud</a>
+
+                    </div>
                 </div>
-            </div>
 
-        </div>
-        <form action="contact.php" method="post">
-            <div class="elem-group">
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="visitor_name" placeholder="" pattern=[A-Z\sa-z]{3,20} required>
             </div>
-            <div class="elem-group">
-                <label for="email">Your E-mail</label>
-                <input type="email" id="email" name="visitor_email" placeholder="" required>
-            </div>
-            <div class="elem-group">
-                <label for="message">Write your message</label>
-                <textarea id="message" name="visitor_message" placeholder="" required></textarea>
-            </div>
-            <!--<div class="button" type="submit">Send Message</div> --> <!--Will fix later since my php isn't working...-->
-        </form>
-<!--
+            <form action="contact.php" method="post">
+                <div class="elem-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="visitor_name" placeholder="" pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+                    <label for="email">Your E-mail</label>
+                    <input type="email" id="email" name="visitor_email" placeholder="" required>
+                </div>
+                <div class="elem-group">
+                    <label for="message">Write your message</label>
+                    <textarea id="message" name="visitor_message" placeholder="" required></textarea>
+                </div>
+                <!--<div class="button" type="submit">Send Message</div> -->
+                <!--Will fix later since my php isn't working...-->
+            </form>
+            <!--
             <section class="contact-wrap">
                 <form action="contact.php" class="contact-form">
                     <div class="col-sm-6">
@@ -267,8 +342,8 @@
 
 -->
 
-    <!--------------Footer----------------->
-</main>
+            <!--------------Footer----------------->
+    </main>
     <footer class="section page-footer black">
         <div class="container center-align">
             &#169; Julia Graves
@@ -277,8 +352,9 @@
 
 
 
-<!--JavaScript at end of body for optimized loading-->
-<script type="text/javascript" src="js/materialize.min.js"></script>
-        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
+
 </html>

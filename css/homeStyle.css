@@ -25,6 +25,10 @@ h1, h3, p{
 
 }
 
+#work{
+    background: black;
+}
+
 #name,#email,#message{
     color:rgba(224, 221, 216,.9);
 }
@@ -67,9 +71,8 @@ h1, h3, p{
     height: 500px;
 }
 
-#work{
-    background-image: url("/css/images/dehr.gif");
-}
+
+
 
 .responsive-img{
     width: 30%;
